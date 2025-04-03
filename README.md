@@ -32,8 +32,8 @@ The **Property Assessment Tracker** is a full-stack web application designed to 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SafwanS143/Ontario-Ministry-Property-Tax
-cd Ontario-Ministry-Property-Tax
+git clone https://github.com/SafwanS143/Property-Tax-Calculator
+cd Property-Tax-Calculator
 
 # 2. Create and activate a virtual environment
 python -m venv venv

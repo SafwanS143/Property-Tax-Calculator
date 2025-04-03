@@ -48,10 +48,7 @@ python transfer.py
 
 # 5. Run the Flask server
 python run.py
-🌐 Frontend Setup
-bash
-Copy
-Edit
+🌐 **Frontend Setup**
 # From the root directory or frontend/
 npm install
 npm run dev
@@ -60,22 +57,22 @@ The frontend will be accessible at: http://localhost:3000/
 🗂️ Data Storage and Management
 CSV files (municipalities.csv, properties.csv) are loaded into an SQLite database using initialize_db.py.
 
-🧩 Database Schema
+🧩 **Database Schema**
 📑 Municipalities Table
 Field	Type	Description
 municipal_id	Primary Key	Unique ID
 municipal_name	Text	Name of the municipality
 municipal_rate	Float	Municipal tax rate
 education_rate	Float	Education tax rate
-🏘️ Properties Table
+
+🏘️ **Properties Table**
+
 Field	Type	Description
 assessment_roll_number	Primary Key	Unique property ID
 assessment_value	Integer	Assessed value of the property
 municipal_id	Foreign Key	Links to municipalities.municipal_id
-📁 Project Structure
-python
-Copy
-Edit
+
+📁 **Project Structure**
 property-assessment-tracker/
 ├── backend/
 │   ├── data/                 # CSV files
@@ -96,7 +93,7 @@ property-assessment-tracker/
 ├── README.md                 # Documentation
 
 
-🧪 API Endpoints
+🧪 **API Endpoints**
 📍 Municipalities
 GET /municipalities
 Fetch all municipalities and their tax rates.
@@ -107,11 +104,7 @@ Retrieve all property records with associated municipality data.
 
 POST /properties
 Add a new property record.
-Example Payload:
-
-json
-Copy
-Edit
+Example Property:
 {
   "assessment_roll_number": "123456789",
   "assessment_value": 500000,
@@ -123,12 +116,9 @@ Update an existing property record.
 DELETE /properties/<assessment_roll_number>
 Delete a property record.
 
-📐 Key Assumptions and Design Choices
+📐 **Key Assumptions and Design Choices**
 Property tax is calculated as:
 
-text
-Copy
-Edit
 municipal_tax = assessment_value * municipal_rate
 education_tax = assessment_value * education_rate
 Data is stored in a relational database (SQLite) for easy querying and updates.

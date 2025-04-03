@@ -94,12 +94,14 @@ property-assessment-tracker/
 │   │   ├── index.tsx         # Entry point
 │   ├── package.json          # Frontend dependencies
 ├── README.md                 # Documentation
+
+
 🧪 API Endpoints
 📍 Municipalities
 GET /municipalities
 Fetch all municipalities and their tax rates.
 
-🏠 Properties
+🏠 **Properties**
 GET /properties
 Retrieve all property records with associated municipality data.
 
@@ -132,18 +134,3 @@ education_tax = assessment_value * education_rate
 Data is stored in a relational database (SQLite) for easy querying and updates.
 
 API follows RESTful principles for all CRUD operations.
-
-🚀 Future Enhancements
-🔐 Implement authentication for secured access
-
-🔍 Add advanced search and filtering options
-
-📤 Enable exporting property data as CSV or PDF
-
-☁️ Deploy backend and frontend using cloud platforms (e.g., AWS, Vercel)
-
-vbnet
-Copy
-Edit
-
-Let me know if you want to add badges, screenshots, or deployment instructions next!

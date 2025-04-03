@@ -75,22 +75,39 @@ municipal_id	Foreign Key	Links to municipalities.municipal_id
 
 ## 📁 **Project Structure**
 property-assessment-tracker/
+
 ├── backend/
+
 │   ├── data/                 # CSV files
+
 │   ├── app.py                # Main Flask application
+
 │   ├── models.py             # Database models
+
 │   ├── routes.py             # API endpoints
+
 │   ├── transfer.py           # CSV to DB import script
+
 │   ├── requirements.txt      # Python dependencies
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/       # UI components
+
 │   │   ├── styles/           # Tailwind/CSS styles
+
 │   │   ├── pages/            # Page layouts
+
 │   │   ├── services/         # API interaction logic
+
 │   │   ├── page.tsx          # Root component
+
 │   │   ├── index.tsx         # Entry point
+
 │   ├── package.json          # Frontend dependencies
+
 ├── README.md                 # Documentation
 
 

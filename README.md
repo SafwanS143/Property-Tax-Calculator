@@ -60,10 +60,15 @@ CSV files (municipalities.csv, properties.csv) are loaded into an SQLite databas
 
 ## 🧩 **Database Schema**
 📑 Municipalities Table
+
 Field	Type	Description
+
 municipal_id	Primary Key	Unique ID
+
 municipal_name	Text	Name of the municipality
+
 municipal_rate	Float	Municipal tax rate
+
 education_rate	Float	Education tax rate
 
 ## 🏘️ **Properties Table**

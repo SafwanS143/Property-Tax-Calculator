@@ -112,16 +112,20 @@ Example Property:
   "municipal_id": 1
 }
 PUT /properties/<assessment_roll_number>
+
 Update an existing property record.
 
 DELETE /properties/<assessment_roll_number>
+
 Delete a property record.
 
 ## 📐 **Key Assumptions and Design Choices**
 Property tax is calculated as:
 
 municipal_tax = assessment_value * municipal_rate
+
 education_tax = assessment_value * education_rate
+
 Data is stored in a relational database (SQLite) for easy querying and updates.
 
 API follows RESTful principles for all CRUD operations.

@@ -3,7 +3,7 @@ export function PageHeader() {
         <div className="flex items-center justify-between w-full min-h-[100px] px-10 py-6 relative bg-black">
             <div className="flex gap-5 items-center flex-shrink-0" style={{ paddingLeft: '40px' }}>
                 <img 
-                    src="/ontarioLogoClear.png" 
+                    src="/next.png" 
                     alt="Ontario Logo"
                     className="max-w-[150px] h-auto"
                 />

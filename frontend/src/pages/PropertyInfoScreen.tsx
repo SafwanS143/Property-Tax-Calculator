@@ -159,7 +159,7 @@ const PropertyInfoScreen = () => {
       {/* Left panel - unchanged */}
       <div className="w-1/3 h-full bg-black rounded-r-2xl p-6 overflow-visible" style={{ position: "relative" }}>
         <img 
-          src="/ontarioLogoClear.png" 
+          src="/next.png" 
           alt="Ontario Logo"
           className="max-w-[150px] h-auto mb-12"
         />
